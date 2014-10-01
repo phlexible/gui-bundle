@@ -6,13 +6,14 @@
  * @license   proprietary
  */
 
-namespace Phlexible\Bundle\GuiBundle\Menu\Loader;
+namespace Phlexible\Bundle\GuiBundle\Exception;
 
 /**
- * Loader exception
+ * Invalid argument exception
  *
  * @author Stephan Wentz <sw@brainbits.net>
  */
-class LoaderException extends \RuntimeException
+class InvalidArgumentException extends \InvalidArgumentException
 {
+
 }
