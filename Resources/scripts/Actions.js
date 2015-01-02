@@ -1,15 +1,4 @@
-Ext.namespace(
-    'Phlexible.gui.menuhandle.handle',
-    'Phlexible.gui.util'
-);
-
-Phlexible.gui.ComponentRecord = Ext.data.Record.create([
-    {name: 'id', type: 'string'},
-    {name: 'classname', type: 'string'},
-    {name: 'path', type: 'string'},
-    {name: 'package', type: 'string'},
-    {name: 'icon', type: 'string'},
-]);
+Ext.namespace('Phlexible.gui');
 
 Phlexible.gui.Actions = new Ext.Window({
     title: Phlexible.gui.Strings.menu,
