@@ -1,9 +1,12 @@
 <?php
-/**
- * phlexible
+
+/*
+ * This file is part of the phlexible package.
  *
- * @copyright 2007-2013 brainbits GmbH (http://www.brainbits.net)
- * @license   proprietary
+ * (c) Stephan Wentz <sw@brainbits.net>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace Phlexible\Bundle\GuiBundle\Tests\Asset\Builder;
@@ -11,8 +14,8 @@ namespace Phlexible\Bundle\GuiBundle\Tests\Asset\Builder;
 use org\bovigo\vfs\vfsStream;
 use Phlexible\Bundle\GuiBundle\Asset\Asset;
 use Phlexible\Bundle\GuiBundle\Asset\Builder\IconsBuilder;
+use Phlexible\Bundle\GuiBundle\Asset\Compressor\CompressorInterface;
 use Phlexible\Bundle\GuiBundle\Asset\Finder\ResourceFinderInterface;
-use Phlexible\Bundle\GuiBundle\Compressor\CompressorInterface;
 use Puli\Repository\Resource\FileResource;
 
 /**

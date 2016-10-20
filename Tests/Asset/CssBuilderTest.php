@@ -1,20 +1,23 @@
 <?php
-/**
- * phlexible
+
+/*
+ * This file is part of the phlexible package.
  *
- * @copyright 2007-2013 brainbits GmbH (http://www.brainbits.net)
- * @license   proprietary
+ * (c) Stephan Wentz <sw@brainbits.net>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
-namespace Phlexible\Bundle\GuiBundle\Tests\Asset\Builder;
+namespace Phlexible\Component\GuiAsset\Tests\Builder;
 
 use org\bovigo\vfs\vfsStream;
-use Phlexible\Bundle\GuiBundle\Asset\Builder\CssBuilder;
-use Phlexible\Bundle\GuiBundle\Asset\Finder\ResourceFinderInterface;
-use Phlexible\Bundle\GuiBundle\Asset\MappedAsset;
-use Phlexible\Bundle\GuiBundle\Asset\MappedContent\MappedContent;
-use Phlexible\Bundle\GuiBundle\Asset\MappedContent\MappedContentBuilder;
-use Phlexible\Bundle\GuiBundle\Compressor\CompressorInterface;
+use Phlexible\Component\GuiAsset\Asset\MappedAsset;
+use Phlexible\Component\GuiAsset\Builder\CssBuilder;
+use Phlexible\Component\GuiAsset\Compressor\CompressorInterface;
+use Phlexible\Component\GuiAsset\Finder\ResourceFinderInterface;
+use Phlexible\Component\GuiAsset\MappedContent\MappedContent;
+use Phlexible\Component\GuiAsset\MappedContent\MappedContentBuilder;
 use Prophecy\Argument;
 
 /**
